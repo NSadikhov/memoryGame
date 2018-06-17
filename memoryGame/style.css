@@ -1,0 +1,30 @@
+.container{
+    border-radius: 15px;
+    width: 580px;
+    height: 580px;
+    background: lightgray;
+    margin: 50px auto;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.flex{
+    border-radius: 15px;
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    width: 120px;
+    height: 120px;
+    line-height: 120px;
+    background: skyblue;
+    margin: 10px;
+    transition: all .5s linear; 
+
+}
+img{
+    margin: 25px;
+    display: none;
+}
